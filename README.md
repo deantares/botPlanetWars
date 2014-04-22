@@ -28,11 +28,11 @@ or clone this repository:
 
 ​3. You will have the following directories:
 
-​* example\_bots  some examples to test your own bot
+​* example_bots  some examples to test your own bot
 
 ​* maps  a list of 100 maps to test your bot
 
-​* maps\_images  png files showing the maps appearance
+​* maps_images  png files showing the maps appearance
 
 ​* tools  Game Player and Game Visualizer
 
@@ -52,31 +52,31 @@ in the game.
 ​7) Just write inside the folder where your bot is (and also the files
 PlanetWars.java, Planet.java, and Fleet.java):
 
-`Javac \*.java`
+`Javac *.java`
 
 RUN A GAME
 
 ​8. Once you have defined your bot and compiled it, you can make a
 combat (and show) between it and another bot with the command:
 
-`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
-\<num\_turns\_max\> \<log\_file\> “java \<path\_MyBot\>/MyBot” “java
-–jar \<path\_OtherBot\>/bot2.jar” | java -jar tools/ShowGame-1.2.jar`
+`java –jar <path_tools>PlayGame-1.2.jar <map.txt> <time_ms>
+<num_turns_max> <log_file> “java <path_MyBot>/MyBot” “java
+–jar <path_OtherBot>/bot2.jar” | java -jar tools/ShowGame-1.2.jar`
 
 Or (if you will use a jar file for your bot):
 
-`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
-\<num\_turns\_max\> \<log\_file\> “java –jar \<path\_MyBot\>/MyBot.jar”
-“java –jar \<path\_OtherBot\>/bot2.jar” | java -jar
+`java –jar <path_tools>/PlayGame-1.2.jar <map.txt> <time_ms>
+<num_turns_max> <log_file> “java –jar <path_MyBot>/MyBot.jar”
+“java –jar <path_OtherBot>/bot2.jar” | java -jar
 tools/ShowGame-1.2.jar`
 
 ​9. If, for instance, you generate a jar file with your bot and just
 want to do the battle with no visualization, you can use the command:
 
-`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
-\<num\_turns\_max\> \<log\_file\> “java –jar \<path\_MyBot\>/MyBot.jar”
-“java –jar \<path\_OtherBot\>/bot2.jar”`
+`java –jar <path_tools>/PlayGame-1.2.jar <map.txt> <time_ms>
+<num_turns_max> <log_file> “java –jar <path_MyBot>/MyBot.jar”
+“java –jar <path_OtherBot>/bot2.jar”`
 
 
-***\* Note: Do not copy-paste the commands, since there could be
+*** Note: Do not copy-paste the commands, since there could be
 problems with the characters***
