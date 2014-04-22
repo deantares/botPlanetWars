@@ -9,8 +9,6 @@ Wars Competition:
 Where starting instructions can be found, along with some advices and
 tutorials on how to create your bot.
 
-\
-\
 
 WHAT TO DO:
 
@@ -18,13 +16,9 @@ WHAT TO DO:
 
 [http://geneura.ugr.es/\~amorag/courses/eas\_in\_games/materials/PLANETWARS.zip](http://geneura.ugr.es/~amorag/courses/eas_in_games/materials/PLANETWARS.zip)
 
-\
-\
 
 or clone this repository:
 
-\
-\
 
 [https://github.com/deantares/botPlanetWars](https://github.com/deantares/botPlanetWars)
 
@@ -65,36 +59,31 @@ COMPILE A BOT:
 ​7) Just write inside the folder where your bot is (and also the files
 PlanetWars.java, Planet.java, and Fleet.java):
 
-Javac \*.java
+`Javac \*.java`
 
 RUN A GAME
 
 ​8) Once you have defined your bot and compiled it, you can make a
 combat (and show) between it and another bot with the command:
 
-java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
+`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
 \<num\_turns\_max\> \<log\_file\> “java \<path\_MyBot\>/MyBot” “java
-–jar \<path\_OtherBot\>/bot2.jar” | java -jar tools/ShowGame-1.2.jar
+–jar \<path\_OtherBot\>/bot2.jar” | java -jar tools/ShowGame-1.2.jar`
 
 Or (if you will use a jar file for your bot):
 
-java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
+`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
 \<num\_turns\_max\> \<log\_file\> “java –jar \<path\_MyBot\>/MyBot.jar”
 “java –jar \<path\_OtherBot\>/bot2.jar” | java -jar
-tools/ShowGame-1.2.jar
+tools/ShowGame-1.2.jar`
 
 ​9) If, for instance, you generate a jar file with your bot and just
 want to do the battle with no visualization, you can use the command:
 
-java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
+`java –jar \<path\_tools\>/PlayGame-1.2.jar \<map.txt\> \<time\_ms\>
 \<num\_turns\_max\> \<log\_file\> “java –jar \<path\_MyBot\>/MyBot.jar”
-“java –jar \<path\_OtherBot\>/bot2.jar”
+“java –jar \<path\_OtherBot\>/bot2.jar”`
 
-\
-\
-
-\
-\
 
 ***\* Note: Do not copy-paste the commands, since there could be
 problems with the characters***
